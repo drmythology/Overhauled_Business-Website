@@ -1,0 +1,283 @@
+body {
+  font-family: 'Outfit';
+}
+
+i{
+  padding: 5px;
+}
+
+.container {
+    background-color: white;
+    /* Added a background image to container so it is not transparent */
+}
+
+h4 {
+  font-size: 80px;
+  color: white;
+}
+
+/* Set the icons to black */
+.fa-sharp {
+  color: black;
+}
+
+.fa-solid {
+  color: black;
+}
+
+.fa-car-garage {
+  color: black;
+}
+/* End of icon */
+
+/* Navigation bar */
+/* Changed the font, font-size, font-weight, and added padding */
+/* Changed the background color of .active class */
+.active {
+  background-color: rgba(224, 224, 224, 0.759);
+}
+
+.navbar {
+  font-family: 'Stick No Bills';
+  font-weight: 900;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+/* Jumbotron */
+
+.display-4 {
+  font-weight: bold; 
+  /* Makes the statement in bold */
+}
+
+.highlight-word {
+  position: relative;
+  z-index: 0;
+/* prevent the highlight from breaking since it is horizontal   */
+  white-space: nowrap;
+  font-size: 45px;
+  font-weight: 300;
+}
+.highlight-word:before {
+    content: '';
+    background: url(http://www.clker.com/cliparts/b/Y/f/N/q/J/yellow-highlighter-mark.svg) no-repeat center center;
+    background-size: 100% auto;
+    width: 108%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    transform: translate(-3%,0);
+}
+
+/* Adjusted .img-fluid size to correctly fit the frame, Added width 100% \9 for IE10 compatibility */
+.img-fluid {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  width: 100% \9;
+}
+
+/* Main Heading */
+
+#headingPicture {
+    width: 100%;
+}
+
+/* Container holding the image and the text */
+.headingContainer {
+  position: relative;
+}
+
+/* Sub Heading */
+
+.subheadingtextContainer {
+  margin: 200px auto 250px auto;
+}
+
+.subheadingtextContainer h3 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.subheadingtextContainer a {
+  text-decoration: none;
+  font-family: 'Outfit';
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.mainButton {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  width: 7%;
+  height: 7%;
+  border-radius: 25px;
+  left: 50%;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.mainButton:hover {
+  background-color: #555555;
+  color: white;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  left: 0;
+  right: 0;
+  bottom: 40%;
+}
+
+/* Footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Cars.html */
+
+.carSpecs {
+  text-align: justify;
+}
+
+.carSpecs img {
+  margin-right: 50px;
+  width: 80%;
+  border-style: none;
+  border-radius: 15px;
+}
+
+/* Car Directory */
+
+.carDirectory {
+  text-align: justify;
+}
+
+.carDirectory td {
+  height: 25%;
+  width: 25%;
+}
+
+.carDirectory span {
+  color: blue;
+}
+
+.carDirectory img {
+  height: 300px;
+  width: 400px;
+  border-style: none;
+  border-radius: 15px;
+  margin-right: 50px;
+}
+
+.carDirectory ul {
+  list-style: none;
+}
+
+/* ============Services.html=============== */
+
+* {
+	box-sizing: border-box;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.pricing-box-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.pricing-box {
+	background-color: #ffffff;
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+	border-radius: 4px;
+	flex: 1;
+	padding: 0 30px 30px;
+	margin: 2%;
+	min-width: 250px;
+	max-width: 350px;
+}
+
+.pricing-box h5 {
+	text-transform: uppercase;
+}
+
+.price {
+	margin: 24px 0;
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.price sub, .price sup {
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.features-list {
+	padding: 0;
+	list-style-type: none;
+}
+
+.features-list li {
+	font-weight: 100;
+	padding: 12px 0;
+	font-weight: 100;
+}
+
+.features-list li:not(:last-of-type) {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+	border-radius: 25px;
+	border: none;
+	background-color: gray;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px 15px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	transition: all 0.1s ease-in-out;
+}
+
+.btn-primary:hover {
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+	transform: translateY(-3px);
+}
+
+.pricing-box-featured {
+	background-color: #ffffff;
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+	border-radius: 4px;
+	flex: 1;
+	padding: 0 70px 70px;
+	margin: 2%;
+	min-width: 250px;
+	max-width: 350px;
+}
+
+/* ============Pricelist.html=============== */
+
+/* Changed the bg-color of .table class % .table thead */
+.table {
+  background-color: #dddddd;
+}
+
+.table thead {
+  background-color: #c3c3c3;
+}
